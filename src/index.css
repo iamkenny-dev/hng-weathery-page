@@ -234,7 +234,7 @@ nav {
 
 .autumn--wrapper {
   position: relative;
-  margin-top: 0px;
+  /* margin-top: px; */
   width: 100vw;
   height: 740px;
   /* border: 4px solid purple; */
