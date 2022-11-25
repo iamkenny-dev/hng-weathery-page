@@ -12,15 +12,16 @@ const Navbar = () => {
         <nav>
 
             <div className="nav--left">
-                <div className='nav--left--first'>
+              <div className='nav--left--first'>
                 <img src="/img/logo.png" alt="" />
-            </div>
+                {/* <h1 className="asian--text">for ASIA</h1> */}
+              </div>
 
-            <div className='nav--left--second'>
+              <div className='nav--left--second'>
                 <a href="">About Us</a>
                 <a href="">Features</a>
                 <a href="">For Business</a>
-            </div>
+              </div>
             </div>
 
 

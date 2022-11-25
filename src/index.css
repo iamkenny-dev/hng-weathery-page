@@ -36,7 +36,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
-  /* gap: 357px; */
+  gap: 357px;
 }
 
 @media (max-width: 375px) {
@@ -52,12 +52,17 @@ nav {
   align-items: center;
   gap: 40px;
   width: 483px;
-  height: 48px;
+  /* width: 700px; */
+  /* height: 48px; */
+  height: 88px;
   color: black;
+  /* margin-left: -30px; */
   /* margin-right: auto; */
 }
 
 .nav--left--first {
+  display: flex;
+  flex-direction: row;
   gap: 4px;
   width: 142px;
   height: 48px;
@@ -242,7 +247,8 @@ nav {
   position: absolute;
   margin-top: 30PX;
   margin-left: 100px;
-  font-size: 44px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 @media (max-width: 728px) {
@@ -658,7 +664,6 @@ nav {
 .weather--updates--left p {
   /* width: 181px; */
     height: 24px;
-  border: 1px solid black;
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 400;
