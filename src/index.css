@@ -242,12 +242,14 @@ nav {
 
 
 .asian--text {
-  color:#EF6820;
+  /* color:#EF6820; */
+  /* color:rgba(0, 0, 0, 0.8); */
+  /* color: red; */
   font-family: 'Outfit';
   position: absolute;
   margin-top: 30PX;
   margin-left: 100px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -310,7 +312,7 @@ nav {
     height: 264px;
     font-family: 'Outfit';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 4rem;
     line-height: 68px;
     /* or 138% */
@@ -319,6 +321,7 @@ nav {
 
 @media (max-width: 1250px) {
   .autumn--head h1 {
+    font-weight: 400;
     font-size: 3rem;
   }
 }
