@@ -36,7 +36,7 @@ export default function HeroBody() {
                     <img src="img/rainy.png" alt="" />
                     <p>Rainy</p>
                   </div>
-                  <hr />
+                  <hr className='single--footer--line' />
                 </div>
 
                 <div className="hourly--boxes">
